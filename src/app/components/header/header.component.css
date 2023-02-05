@@ -1,0 +1,22 @@
+.header{
+background-color: var(--background);
+height: 5.25rem;
+width: 100%;
+display: flex;
+align-items: center;
+box-shadow: 0.063rem 0 1.25rem 0 #303434;
+}
+
+#logo-icon{
+    width:40px;
+}
+
+#logo-group a{
+    text-decoration: none;
+}
+
+#logo-text{
+    font-family: 'Bilbo';
+    font-size: 50px;
+    color: var(--ring);
+}
