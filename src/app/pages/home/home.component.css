@@ -1,0 +1,12 @@
+#home-container{
+    margin: 1rem;
+    padding: 0.8rem;
+    width: calc(100vw - 13rem);
+    height: calc(100vh - 7.25rem);
+    background: white;
+    
+}
+
+.teste{
+    background-color: blue;
+}

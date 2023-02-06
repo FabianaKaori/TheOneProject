@@ -1,4 +1,5 @@
 .container{
-    padding-left: 200px;
+    display: flex;
+    flex-direction: row;
     background-color: aqua;
 }
