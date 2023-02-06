@@ -1,0 +1,13 @@
+.containerDocuments{
+    margin: 1rem;
+    padding: 0.8rem;
+    width: calc(100vw - 193px);
+    height: calc(100vh - 7.25rem);
+    background: #696969;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}

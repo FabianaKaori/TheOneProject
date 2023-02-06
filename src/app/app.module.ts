@@ -11,6 +11,8 @@ import { CharactersComponent } from './pages/characters/characters.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
+import { DocumentsComponent } from './pages/documents/documents.component';
+import { CardLinkComponent } from './components/card-link/card-link.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
     CharactersComponent,
     HeaderComponent,
     FooterComponent,
-    SidenavComponent
+    SidenavComponent,
+    DocumentsComponent,
+    CardLinkComponent
   ],
   imports: [
     BrowserModule,
