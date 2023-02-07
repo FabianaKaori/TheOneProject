@@ -9,44 +9,30 @@ export class DocumentsComponent {
   cardList = [
     {
       title: 'Angular',
-      description: 'aaaa'
+      link: 'https://angular.io/',
+      icon:'../../assets/angular-logo.svg'
+    },
+    {
+      title: 'Axios',
+      link: 'https://axios-http.com/ptbr/docs/intro',
+      icon:'../../assets/axios-logo.svg'
+    },
+    {
+      title: 'NodeJS',
+      link: 'https://nodejs.org/pt-br/about/',
+      icon:'../../assets/node-logo.svg'
+    },
+    {
+      title: 'SVG',
+      link: 'https://www.svgrepo.com/',
+      icon:'../../assets/svg-logo.svg'
     },
     {
       title: 'API',
-      description: 'aaaa'
+      link: 'https://the-one-api.dev/',
+      icon:'../../assets/api-logo.svg'
     },
-    {
-      title: 'Teste 2',
-      description: 'aaaa'
-    },
-    {
-      title: 'Teste 3',
-      description: 'aaaa'
-    },
-    {
-      title: 'Teste 4',
-      description: 'aaaa'
-    },
-    {
-      title: 'Teste 5',
-      description: 'aaaa'
-    },
-    {
-      title: 'Teste 6',
-      description: 'aaaa'
-    },
-    {
-      title: 'Teste 7',
-      description: 'aaaa'
-    },
-    {
-      title: 'Teste 8',
-      description: 'aaaa'
-    },
-    {
-      title: 'Teste 9',
-      description: 'aaaa'
-    },
+
   ]
 }
 

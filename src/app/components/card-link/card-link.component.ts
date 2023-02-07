@@ -6,6 +6,9 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./card-link.component.css']
 })
 export class CardLinkComponent {
-@Input() 
-  title?: string
+@Input() title?: string
+@Input() link?: string
+@Input() icon?: string
+
 }
+
