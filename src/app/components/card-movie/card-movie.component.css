@@ -1,0 +1,18 @@
+.cardMovieContainer{
+    padding: 0.625rem;
+    height: auto;
+    width: 100%;
+    background-color: aqua;
+}
+
+.cardMovieContainer h1{
+    padding-bottom: 0.625rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cardMovieContainer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3125rem;
+}

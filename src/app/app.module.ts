@@ -15,6 +15,8 @@ import { DocumentsComponent } from './pages/documents/documents.component';
 import { CardLinkComponent } from './components/card-link/card-link.component';
 import { MapHomeComponent } from './components/map-home/map-home.component';
 import { MapHomeTargetComponent } from './components/map-home-target/map-home-target.component';
+import { FilterMovieComponent } from './components/filter-movie/filter-movie.component';
+import { CardMovieComponent } from './components/card-movie/card-movie.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { MapHomeTargetComponent } from './components/map-home-target/map-home-ta
     DocumentsComponent,
     CardLinkComponent,
     MapHomeComponent,
-    MapHomeTargetComponent
+    MapHomeTargetComponent,
+    FilterMovieComponent,
+    CardMovieComponent
   ],
   imports: [
     BrowserModule,
