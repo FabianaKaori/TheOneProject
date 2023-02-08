@@ -1,5 +1,6 @@
 .container{
     display: flex;
     flex-direction: row;
-    background-color: var(--ring);
+    background-color: var(--background-gray);
 }
+
