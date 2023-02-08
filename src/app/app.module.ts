@@ -13,6 +13,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { DocumentsComponent } from './pages/documents/documents.component';
 import { CardLinkComponent } from './components/card-link/card-link.component';
+import { MapHomeComponent } from './components/map-home/map-home.component';
+import { MapHomeTargetComponent } from './components/map-home-target/map-home-target.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { CardLinkComponent } from './components/card-link/card-link.component';
     FooterComponent,
     SidenavComponent,
     DocumentsComponent,
-    CardLinkComponent
+    CardLinkComponent,
+    MapHomeComponent,
+    MapHomeTargetComponent
   ],
   imports: [
     BrowserModule,
