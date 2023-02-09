@@ -1,7 +1,7 @@
 <div class="containerMovies">
     <h1>Filmes</h1>
     <app-filter-movie></app-filter-movie>
-        <ng-container *ngFor="let item of movies.docs">
+        <ng-container *ngFor="let item of movies">
           <app-card-movie
             [academyAwardNominations]="item.academyAwardNominations"
             [academyAwardWins]="item.academyAwardWins"

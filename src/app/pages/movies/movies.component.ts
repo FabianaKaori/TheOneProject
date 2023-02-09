@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-
 import { MovieServiceService } from 'src/app/services/movie-service.service';
 @Component({
   selector: 'app-movies',
@@ -8,16 +7,14 @@ import { MovieServiceService } from 'src/app/services/movie-service.service';
 })
 
 export class MoviesComponent {
-  movieService: MovieServiceService;
   movies:any
 
-  constructor(){
-    this.movieService = new MovieServiceService()
-  }
+  constructor(private movieService: MovieServiceService){ }
 
   async ngOnInit(){
-    this.movies = await this.movieService.getMovies()
-
+   this.movieService.getMovies().subscribe(response => {
+    this.movies = response.docs
     console.log(this.movies)
+   })
   }
 }

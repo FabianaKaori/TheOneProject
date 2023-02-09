@@ -18,6 +18,7 @@ import { MapHomeTargetComponent } from './components/map-home-target/map-home-ta
 import { FilterMovieComponent } from './components/filter-movie/filter-movie.component';
 import { CardMovieComponent } from './components/card-movie/card-movie.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     BrowserModule,
     FormsModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

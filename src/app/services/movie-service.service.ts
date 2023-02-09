@@ -1,25 +1,23 @@
 import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http'
 import axios, { AxiosInstance } from 'axios'
 
 @Injectable({
   providedIn: 'root'
 })
 export class MovieServiceService {
-  private axiosClient: AxiosInstance;
+  baseURL = 'https://the-one-api.dev/v2'
+  // 'Bearer J9smCC4ow_JqasHdob7-'
+  constructor(private httpClient: HttpClient) {}
 
-  constructor() {
-    this.axiosClient = axios.create({
-      baseURL: 'https://the-one-api.dev/v2/'
-    });
-
-    this.axiosClient.defaults.headers.common['Authorization'] = 'Bearer J9smCC4ow_JqasHdob7-'
-  }
-
-  getMovies = async () => {
+  getMovies() {
     const params = new URLSearchParams();
     params.append('limit', '3');
 
-    const { data } = await this.axiosClient.get('/movie', {params})
-    return data
+    return this.httpClient.get<{ docs: any}>(`${this.baseURL}/movie`, {
+      headers: {
+        Authorization: 'Bearer J9smCC4ow_JqasHdob7-'
+      },
+     })
   }
 }
