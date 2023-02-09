@@ -4,6 +4,7 @@
     width: 100%;
     background-color: var(--background);
     border-radius: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 
 .cardMovieContainer h1{

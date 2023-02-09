@@ -16,7 +16,10 @@ export class MovieServiceService {
   }
 
   getMovies = async () => {
-    const { data } = await this.axiosClient.get('/movie')
+    const params = new URLSearchParams();
+    params.append('limit', '3');
+
+    const { data } = await this.axiosClient.get('/movie', {params})
     return data
   }
 }
