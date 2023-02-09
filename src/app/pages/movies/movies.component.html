@@ -1,7 +1,16 @@
 <div class="containerMovies">
     <h1>Filmes</h1>
     <app-filter-movie></app-filter-movie>
-        <app-card-movie>
-        </app-card-movie>
+        <ng-container *ngFor="let item of movies.docs">
+          <app-card-movie
+            [academyAwardNominations]="item.academyAwardNominations"
+            [academyAwardWins]="item.academyAwardWins"
+            [boxOfficeRevenueInMillions]="item.boxOfficeRevenueInMillions"
+            [budgetInMillions]="item.budgetInMillions"
+            [titleMovie]="item.name"
+            [rottenTomatoesScore]="item.rottenTomatoesScore"
+            [runtimeInMinutes]="item.runtimeInMinutes">
+          </app-card-movie>
+        </ng-container>
 </div>
 
