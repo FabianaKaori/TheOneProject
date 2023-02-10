@@ -19,6 +19,9 @@ import { FilterMovieComponent } from './components/filter-movie/filter-movie.com
 import { CardMovieComponent } from './components/card-movie/card-movie.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HttpClientModule } from '@angular/common/http';
+import { PaginationMovieComponent } from './components/pagination-movie/pagination-movie.component';
+import { PaginationBookComponent } from './components/pagination-book/pagination-book.component';
+import { PaginationCharacterComponent } from './components/pagination-character/pagination-character.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +38,10 @@ import { HttpClientModule } from '@angular/common/http';
     MapHomeComponent,
     MapHomeTargetComponent,
     FilterMovieComponent,
-    CardMovieComponent
+    CardMovieComponent,
+    PaginationMovieComponent,
+    PaginationBookComponent,
+    PaginationCharacterComponent
   ],
   imports: [
     BrowserModule,
