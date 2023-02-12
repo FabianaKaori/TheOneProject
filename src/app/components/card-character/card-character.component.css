@@ -1,0 +1,21 @@
+.cardCharacterContainer{
+  padding: 0.9375rem;
+  height: auto;
+  width: 100%;
+  background-color: var(--background);
+  border-radius: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.cardCharacterContainer h1{
+  color: var(--ring);
+}
+
+.cardCharacterContainer ul{
+  color: white;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3125rem;
+  padding: 0.9375rem;
+}

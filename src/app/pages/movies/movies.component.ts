@@ -1,3 +1,4 @@
+import { NgIf } from '@angular/common';
 import { Component } from '@angular/core';
 import { MovieServiceService } from 'src/app/services/movie-service.service';
 @Component({
@@ -12,10 +13,19 @@ export class MoviesComponent {
 
   constructor(private movieService: MovieServiceService){ }
 
-  async ngOnInit(){
-   this.movieService.getMovies().subscribe(response => {
-    this.movies = response.docs
-    this.totalPages = response.pages
-   })
+  ngOnInit(){
+    this.getMovies(1)
   }
+
+  getMovies = (page: number) =>{
+    this.movieService.getMovies(page).subscribe(response => {
+      this.movies = response.docs
+      this.totalPages = response.pages
+     })
+  }
+
+  handleCurrentPage = (page: number) =>{
+    this.getMovies(page)
+  }
+
 }

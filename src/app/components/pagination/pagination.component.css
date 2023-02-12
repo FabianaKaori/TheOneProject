@@ -21,7 +21,7 @@
   flex-wrap: wrap;
 }
 
-.pageListBook a{
+.pageListBook p{
   padding: 0.625rem;
   text-decoration: none;
   margin: 0.3125rem;

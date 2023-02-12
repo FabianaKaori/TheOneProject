@@ -1,24 +1,25 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpParams } from '@angular/common/http'
+import { HttpClient, HttpParams} from '@angular/common/http'
 
 @Injectable({
   providedIn: 'root'
 })
-export class MovieServiceService {
+export class CharacterServiceService {
   baseURL = 'https://the-one-api.dev/v2'
 
   constructor(private httpClient: HttpClient) {}
 
-  getMovies(page:number) {
+  getCharacter(page:number){
     const params = new HttpParams()
-      .set('limit', '3')
-      .set('page', page);
+    .set('limit', '2')
+    .set('page', page);
 
-    return this.httpClient.get<any>(`${this.baseURL}/movie`, {
+    return this.httpClient.get<any>(`${this.baseURL}/character`,{
       headers: {
         Authorization: 'Bearer J9smCC4ow_JqasHdob7-'
       },
       params
-     })
+    })
+
   }
 }

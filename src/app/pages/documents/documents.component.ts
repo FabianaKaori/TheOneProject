@@ -13,11 +13,6 @@ export class DocumentsComponent {
       icon:'../../assets/angular-logo.svg'
     },
     {
-      title: 'Axios',
-      link: 'https://axios-http.com/ptbr/docs/intro',
-      icon:'../../assets/axios-logo.svg'
-    },
-    {
       title: 'NodeJS',
       link: 'https://nodejs.org/pt-br/about/',
       icon:'../../assets/node-logo.svg'

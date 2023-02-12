@@ -11,6 +11,6 @@
             [runtimeInMinutes]="item.runtimeInMinutes">
           </app-card-movie>
         </ng-container>
-        <app-pagination [totalPage]="totalPages"></app-pagination>
+        <app-pagination [totalPage]="totalPages" (currentPage)="handleCurrentPage($event)"></app-pagination>
 </div>
 
