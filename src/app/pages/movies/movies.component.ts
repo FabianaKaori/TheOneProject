@@ -8,13 +8,14 @@ import { MovieServiceService } from 'src/app/services/movie-service.service';
 
 export class MoviesComponent {
   movies:any
+  totalPages?: number
 
   constructor(private movieService: MovieServiceService){ }
 
   async ngOnInit(){
    this.movieService.getMovies().subscribe(response => {
     this.movies = response.docs
-    console.log(this.movies)
+    this.totalPages = response.pages
    })
   }
 }
