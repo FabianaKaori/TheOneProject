@@ -9,6 +9,7 @@
 
 .cardMovieContainer h1{
     color: var(--ring);
+    font-size:large;
 }
 
 .cardMovieContainer ul{
