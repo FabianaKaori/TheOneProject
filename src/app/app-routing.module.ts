@@ -10,8 +10,8 @@ const routes: Routes = [
     { path: '', component: HomeComponent },
     { path: 'filmes', component: MoviesComponent },
     { path: 'livros', component: BooksComponent },
-    {path: 'personagens', component: CharactersComponent},
-    {path: 'links', component: DocumentsComponent}
+    { path: 'personagens', component: CharactersComponent },
+    { path: 'links', component: DocumentsComponent }
 ]
 
 @NgModule({
