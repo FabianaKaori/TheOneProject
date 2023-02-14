@@ -22,6 +22,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { PaginationComponent } from './components/pagination/pagination.component';
 import { CardCharacterComponent } from './components/card-character/card-character.component';
 
+import { AvatarModule } from 'ngx-avatar';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -46,8 +48,9 @@ import { CardCharacterComponent } from './components/card-character/card-charact
     FormsModule,
     AppRoutingModule,
     FontAwesomeModule,
-    HttpClientModule
-  ],
+    HttpClientModule,
+    AvatarModule,
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

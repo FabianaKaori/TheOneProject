@@ -1,22 +1,20 @@
-.cardMovieContainer{
-    padding: 0.9375rem;
-    height: auto;
-    width: 100%;
-    background-color: var(--background);
-    border-radius: 1.25rem;
-    margin-bottom: 1.25rem;
-}
-
-.cardMovieContainer h1{
+.collapse{
+    margin: 0.625rem;
+  }
+  
+  .title{
+    padding: 1rem;
     color: var(--ring);
-    font-size:large;
-}
-
-.cardMovieContainer ul{
-    color: white;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 0.3125rem;
-    padding: 0.9375rem;
-}
+    background-color: var(--background);
+    border-radius: 0.625rem;
+    height: auto;
+    font-size: 1.5rem;
+  }
+  
+  .description{
+    margin: 0.625rem;
+    padding: 0.625rem;
+    background-color: #708090;
+    border-radius: 0.625rem;
+    color: black;  
+  }

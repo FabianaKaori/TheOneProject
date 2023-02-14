@@ -1,7 +1,6 @@
-<div class="cardMovieContainer">
-    <h1>{{titleMovie}}</h1>
-    <!-- <h1>Título do Filme</h1> -->
-    <div class="descriptionMovie">
+<details class="collapse">
+    <summary class="title"><strong>{{titleMovie}}</strong></summary>
+    <div class="description">
         <ul>
             <li><strong>Tempo de duração em minutos:</strong> {{runtimeInMinutes}}</li>
             <li><strong>Orçamento:</strong> U${{budgetInMillions}} milhões</li>
@@ -10,5 +9,7 @@
             <li><strong>Prêmios da academia:</strong> {{academyAwardWins}}</li>
             <li><strong>Score Rotten Tomatoes:</strong> {{rottenTomatoesScore}} </li>
         </ul>
+
+        <ngx-avatar facebookId="1508319875"></ngx-avatar>
     </div>
-</div>
+  </details>

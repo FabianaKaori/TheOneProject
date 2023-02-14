@@ -11,7 +11,7 @@ export class MovieServiceService {
 
   getMovies(page:number) {
     const params = new HttpParams()
-      .set('limit', '3')
+      .set('limit', '5')
       .set('page', page);
 
     return this.httpClient.get<any>(`${this.baseURL}/movie`, {
