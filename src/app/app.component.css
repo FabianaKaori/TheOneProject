@@ -2,5 +2,8 @@
     display: flex;
     flex-direction: row;
     background-color: var(--background-gray);
+    min-width: auto;
+    min-height: 100vh;
+    background-size: cover;
 }
 

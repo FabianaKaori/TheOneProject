@@ -9,6 +9,7 @@
     border-radius: 0.625rem;
     height: auto;
     font-size: 1.5rem;
+    cursor: pointer;
   }
   
   .description{
