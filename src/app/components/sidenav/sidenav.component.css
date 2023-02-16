@@ -21,7 +21,7 @@
     width: 100%;
 }
 
-#sidenav-list-link:hover{
+.sidenavListLink:hover{
     background-color: var(--ring);
     color: #303434;
 }
