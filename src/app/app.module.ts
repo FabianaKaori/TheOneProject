@@ -39,7 +39,7 @@ import { CardCharacterComponent } from './components/card-character/card-charact
     FilterMovieComponent,
     CardMovieComponent,
     PaginationComponent,
-    CardCharacterComponent
+    CardCharacterComponent,
   ],
   imports: [
     BrowserModule,
