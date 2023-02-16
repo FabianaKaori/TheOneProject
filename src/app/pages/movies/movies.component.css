@@ -1,4 +1,6 @@
 .containerMovies{
+    margin: 1rem;
+    padding: 0.8rem;
     width: calc(100vw - 193px);
-    height: 100%;
+    height: calc(100vh - 7.25rem);
 }

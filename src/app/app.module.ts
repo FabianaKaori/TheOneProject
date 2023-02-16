@@ -21,6 +21,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HttpClientModule } from '@angular/common/http';
 import { PaginationComponent } from './components/pagination/pagination.component';
 import { CardCharacterComponent } from './components/card-character/card-character.component';
+import { CardBookComponent } from './components/card-book/card-book.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { CardCharacterComponent } from './components/card-character/card-charact
     CardMovieComponent,
     PaginationComponent,
     CardCharacterComponent,
+    CardBookComponent,
   ],
   imports: [
     BrowserModule,

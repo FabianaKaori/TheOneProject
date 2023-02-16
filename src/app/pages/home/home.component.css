@@ -1,6 +1,8 @@
 .containerHome{
-    width: calc(100vw - 10rem);
-    height: 100%;
+    margin: 1rem;
+    padding: 0.8rem;
+    width: calc(100vw - 193px);
+    height: calc(100vh - 7.25rem);
     display: flex;
     flex-direction: column;
     align-items: center;
