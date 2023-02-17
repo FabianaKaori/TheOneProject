@@ -3,7 +3,6 @@
     flex-direction: row;
     background-color: var(--background-gray);
     min-width: auto;
-    min-height: calc(100vh - 5.25rem);
-    background-size: cover;
+    min-height: 100%;
 }
 
