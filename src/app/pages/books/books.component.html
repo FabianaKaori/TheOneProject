@@ -1,4 +1,7 @@
 <div class="containerBooks">
     <h1>Livros</h1>
-    <app-card-book></app-card-book>
+    <ng-container *ngFor="let item of books">
+    <app-card-book
+    [name]="item.name"></app-card-book>
+    </ng-container>
 </div>
