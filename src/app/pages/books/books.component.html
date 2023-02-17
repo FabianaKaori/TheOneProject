@@ -1,7 +1,9 @@
 <div class="containerBooks">
     <h1>Livros</h1>
     <ng-container *ngFor="let item of books">
-    <app-card-book
-    [name]="item.name"></app-card-book>
+        <app-card-book
+        [name]="item.name">
+    </app-card-book>
     </ng-container>
+    <app-pagination [totalPage]="totalPages" (currentPage)="handleCurrentPage($event)"></app-pagination>
 </div>

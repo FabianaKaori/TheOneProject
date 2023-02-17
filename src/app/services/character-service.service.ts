@@ -11,7 +11,7 @@ export class CharacterServiceService {
 
   getCharacter(page:number){
     const params = new HttpParams()
-    .set('limit', '10')
+    .set('limit', '9')
     .set('page', page);
 
     return this.httpClient.get<any>(`${this.baseURL}/character`,{
