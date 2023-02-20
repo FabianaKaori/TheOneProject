@@ -1,38 +1,10 @@
 <details class="collapse">
-    <summary class="title"><strong>{{name}}</strong></summary>
+    <summary class="title" (click)="getChapters()"><strong>{{name}}</strong></summary>
     <div class="description">
         <ul>
-        <li><strong>Capítulo: </strong>{{chapter}}</li>
-      </ul>
+          <ng-container *ngFor="let item of chapters; let i = index">
+            <li><strong>Chapter {{i + 1}}: </strong>{{item.chapterName}}</li>
+          </ng-container>
+        </ul>
     </div>
   </details>
-
-  <!-- <details class="collapse">
-    <summary class="title"><strong>The Fellowship Of The Ring</strong></summary>
-    <div class="description">
-        <ul>
-        <li><strong>Capítulo: </strong> A Long-expected Party</li>
-        <li><strong>Capítulo: </strong> The Shadow of the Past</li>
-        <li><strong>Capítulo: </strong> Three is Company</li>
-        <li><strong>Capítulo: </strong> A Short Cut to Mushrooms</li>
-        <li><strong>Capítulo: </strong> A Conspiracy Unmasked</li>
-        <li><strong>Capítulo: </strong> The Old Forest</li>
-        <li><strong>Capítulo: </strong> In the House of Tom Bombadil</li>
-        <li><strong>Capítulo: </strong> Fog on the Barrow-Downs</li>
-        <li><strong>Capítulo: </strong> At the Sign of The Prancing Pony</li>
-        <li><strong>Capítulo: </strong> Strider</li>
-        <li><strong>Capítulo: </strong> A Knife in the Dark</li>
-        <li><strong>Capítulo: </strong> Flight to the Ford</li>
-        <li><strong>Capítulo: </strong> Many Meetings</li>
-        <li><strong>Capítulo: </strong> The Council of Elrond</li>
-        <li><strong>Capítulo: </strong> The Ring Goes South</li>
-        <li><strong>Capítulo: </strong> A Journey in the Dark</li>
-        <li><strong>Capítulo: </strong> The Bridge of Khazad-dûm</li>
-        <li><strong>Capítulo: </strong> Lothlórien</li>
-        <li><strong>Capítulo: </strong> The Mirror of Galadriel</li>
-        <li><strong>Capítulo: </strong> Farewell to Lórien</li>
-        <li><strong>Capítulo: </strong> The Great River</li>
-        <li><strong>Capítulo: </strong> The Breaking of the Fellowship</li>
-      </ul>
-    </div>
-  </details> -->

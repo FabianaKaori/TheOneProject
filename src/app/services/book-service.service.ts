@@ -21,4 +21,16 @@ export class BookServiceService {
       params
     })
   }
+
+  getChapter(bookId?: string) {
+    const params = new HttpParams()
+    .set('limit', '1000');
+
+    return this.httpClient.get<any>(`${this.baseURL}/book/${bookId}/chapter`, {
+      headers: {
+        Authorization: 'Bearer J9smCC4ow_JqasHdob7-'
+      },
+      params
+    })
+  }
 }

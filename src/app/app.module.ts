@@ -48,7 +48,7 @@ import { CardBookComponent } from './components/card-book/card-book.component';
     FormsModule,
     AppRoutingModule,
     FontAwesomeModule,
-    HttpClientModule,
+    HttpClientModule
     ],
   providers: [],
   bootstrap: [AppComponent]

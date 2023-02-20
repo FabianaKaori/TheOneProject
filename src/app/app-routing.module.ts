@@ -8,9 +8,9 @@ import { MoviesComponent } from "./pages/movies/movies.component";
 
 const routes: Routes = [
     { path: '', component: HomeComponent },
-    { path: 'filmes', component: MoviesComponent },
-    { path: 'livros', component: BooksComponent },
-    { path: 'personagens', component: CharactersComponent },
+    { path: 'movies', component: MoviesComponent },
+    { path: 'books', component: BooksComponent },
+    { path: 'characters', component: CharactersComponent },
     { path: 'links', component: DocumentsComponent }
 ]
 
