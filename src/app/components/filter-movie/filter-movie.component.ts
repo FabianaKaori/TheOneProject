@@ -1,6 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
-
 
 @Component({
   selector: 'app-filter-movie',
@@ -10,7 +9,12 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 export class FilterMovieComponent {
   faSearch = faSearch;
+  name?: string
 
+  @Output() movieTitle = new EventEmitter<string>()
 
+  filterMovie = () => {
+    this.movieTitle.emit(this.name)
+  }
 
 }

@@ -9,10 +9,16 @@ export class MovieServiceService {
 
   constructor(private httpClient: HttpClient) {}
 
-  getMovies(page:number) {
-    const params = new HttpParams()
+  getMovies(page:number, name?:string) {
+    let params = new HttpParams()
       .set('limit', '5')
       .set('page', page);
+
+
+
+      if(name !== undefined) {
+        params = params.append('name', `/${name}/i`)
+      }
 
     return this.httpClient.get<any>(`${this.baseURL}/movie`, {
       headers: {
@@ -21,4 +27,6 @@ export class MovieServiceService {
       params
      })
   }
+
+
 }

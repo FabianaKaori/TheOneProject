@@ -1,5 +1,7 @@
 <div class="containerCharacters">
-    <h1>Characters</h1>
+    <app-filter-character
+      (characterName)="handleCharacterName($event)"
+    ></app-filter-character>
     <ng-container *ngFor="let item of characters">
       <app-card-character
         [name]="item.name"
@@ -14,6 +16,9 @@
         [wikiUrl]="item.wikiUrl"
       ></app-card-character>
     </ng-container>
-    <app-pagination [totalPage]="totalPages" (currentPage)="handleCurrentPage($event)"></app-pagination>
+    <app-pagination
+    [totalPage]="totalPages"
+    (currentPage)="handleCurrentPage($event)"
+    ></app-pagination>
 
 </div>

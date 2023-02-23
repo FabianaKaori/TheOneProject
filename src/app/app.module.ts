@@ -22,6 +22,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { PaginationComponent } from './components/pagination/pagination.component';
 import { CardCharacterComponent } from './components/card-character/card-character.component';
 import { CardBookComponent } from './components/card-book/card-book.component';
+import { FilterCharacterComponent } from './components/filter-character/filter-character.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { CardBookComponent } from './components/card-book/card-book.component';
     PaginationComponent,
     CardCharacterComponent,
     CardBookComponent,
+    FilterCharacterComponent
   ],
   imports: [
     BrowserModule,

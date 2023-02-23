@@ -1,15 +1,21 @@
 <div class="containerMovies">
-    <app-filter-movie></app-filter-movie>
-        <ng-container *ngFor="let item of movies">
-          <app-card-movie
-            [academyAwardNominations]="item.academyAwardNominations"
-            [academyAwardWins]="item.academyAwardWins"
-            [boxOfficeRevenueInMillions]="item.boxOfficeRevenueInMillions"
-            [budgetInMillions]="item.budgetInMillions"
-            [titleMovie]="item.name"
-            [rottenTomatoesScore]="item.rottenTomatoesScore"
-            [runtimeInMinutes]="item.runtimeInMinutes">
-          </app-card-movie>
-        </ng-container>
-        <app-pagination [totalPage]="totalPages" (currentPage)="handleCurrentPage($event)"></app-pagination>
+  <app-filter-movie
+    (movieTitle)="handleMovieTitle($event)"
+  ></app-filter-movie>
+  <ng-container *ngFor="let item of movies">
+    <app-card-movie
+      [academyAwardNominations]="item.academyAwardNominations"
+      [academyAwardWins]="item.academyAwardWins"
+      [boxOfficeRevenueInMillions]="item.boxOfficeRevenueInMillions"
+      [budgetInMillions]="item.budgetInMillions"
+      [titleMovie]="item.name"
+      [rottenTomatoesScore]="item.rottenTomatoesScore"
+      [runtimeInMinutes]="item.runtimeInMinutes"
+    >
+    </app-card-movie>
+  </ng-container>
+  <app-pagination
+    [totalPage]="totalPages"
+    (currentPage)="handleCurrentPage($event)"
+  ></app-pagination>
 </div>

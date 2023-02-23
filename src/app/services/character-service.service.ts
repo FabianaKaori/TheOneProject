@@ -9,10 +9,17 @@ export class CharacterServiceService {
 
   constructor(private httpClient: HttpClient) {}
 
-  getCharacter(page:number){
-    const params = new HttpParams()
+  getCharacters(page:number, name?:string){
+    let params = new HttpParams()
     .set('limit', '9')
     .set('page', page);
+
+    console.log(name)
+
+
+    if(name !== undefined) {
+      params = params.append('name', `/${name}/i`)
+    }
 
     return this.httpClient.get<any>(`${this.baseURL}/character`,{
       headers: {
