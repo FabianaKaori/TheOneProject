@@ -7,23 +7,23 @@ import { BookServiceService } from 'src/app/services/book-service.service'
   styleUrls: ['./books.component.css']
 })
 export class BooksComponent {
-  books:any
+  books: any
   totalPages?: number
 
-  constructor(private bookService: BookServiceService){}
+  constructor(private bookService: BookServiceService) { }
 
-  ngOnInit(){
+  ngOnInit() {
     this.getBooks(1)
   }
 
   getBooks = (page: number) => {
-    this.bookService.getBooks(page).subscribe(response =>{
+    this.bookService.getBooks(page).subscribe(response => {
       this.books = response.docs
       this.totalPages = response.pages
     })
   }
 
-  handleCurrentPage = (page: number) =>{
+  handleCurrentPage = (page: number) => {
     this.getBooks(page)
   }
 }

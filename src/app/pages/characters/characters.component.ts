@@ -11,7 +11,7 @@ export class CharactersComponent {
   currentPage: number = 1;
   totalPages?: number;
 
-  constructor(private characterService: CharacterServiceService) {}
+  constructor(private characterService: CharacterServiceService) { }
 
   ngOnInit() {
     this.getCharacters(this.currentPage);
