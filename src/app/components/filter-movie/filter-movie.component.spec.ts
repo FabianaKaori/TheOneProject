@@ -8,9 +8,9 @@ describe('FilterMovieComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FilterMovieComponent ]
+      declarations: [FilterMovieComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(FilterMovieComponent);
     component = fixture.componentInstance;

@@ -1,8 +1,8 @@
-#btn-card-link{
+#btn-card-link {
     text-decoration: none;
 }
 
-.cardContainerLink{
+.cardContainerLink {
     width: 18.75rem;
     height: 18.75rem;
     background-color: var(--background);
@@ -13,18 +13,18 @@
     align-items: center;
 }
 
-.cardContainerLink h1{
+.cardContainerLink h1 {
     padding-top: 2rem;
     padding-bottom: 1rem;
     font-family: 'Arial';
     color: var(--ring);
 }
 
-#logo-icon{
+#logo-icon {
     max-width: 80px;
 }
 
-.cardContainerLink p{
+.cardContainerLink p {
     color: white;
     max-width: 250px;
     padding-top: 2rem;

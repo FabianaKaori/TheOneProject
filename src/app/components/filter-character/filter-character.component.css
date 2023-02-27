@@ -1,24 +1,25 @@
-.filterCharacterContainer{
+.filterCharacterContainer {
   display: flex;
   justify-content: space-between;
   padding: 10px;
 
 }
 
-.containerFilterMovie h1{
+.containerFilterMovie h1 {
   color: var(--ring);
 }
 
-.filterCharacterName{
+.filterCharacterName {
   gap: 10px;
   display: flex;
 }
-.searchCharacterName{
+
+.searchCharacterName {
   padding: 10px;
   border-radius: 10px;
 }
 
-.btn-search-character{
+.btn-search-character {
   cursor: pointer;
   padding: 10px;
   border-radius: 10px;

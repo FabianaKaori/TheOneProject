@@ -1,21 +1,10 @@
 <div class="filterCharacterContainer">
   <h1>Filter Characters</h1>
   <div class="filterCharacterName">
-    <input
-      type="text"
-      class="searchCharacterName"
-      id="name"
-      name="name"
-      placeholder="Pesquisar personagem"
-      [(ngModel)]="name"
-      (keyup.enter)="filterCharacter()"
-    />
+    <input type="text" class="searchCharacterName" id="name" name="name" placeholder="Pesquisar personagem"
+      [(ngModel)]="name" (keyup.enter)="filterCharacter()" />
 
-    <button
-      class="btn-search-character"
-      type="button"
-      (click)="filterCharacter()"
-    >
+    <button class="btn-search-character" type="button" (click)="filterCharacter()">
       <fa-icon [icon]="faSearch"></fa-icon>
     </button>
   </div>

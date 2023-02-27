@@ -1,8 +1,8 @@
-.collapse{
+.collapse {
   margin: 0.625rem;
 }
 
-.title{
+.title {
   padding: 1rem;
   color: var(--ring);
   background-color: var(--background);
@@ -12,7 +12,7 @@
   cursor: pointer;
 }
 
-.description{
+.description {
   margin: 0.625rem;
   padding: 0.625rem;
   background-color: #708090;

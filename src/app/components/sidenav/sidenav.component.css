@@ -1,4 +1,4 @@
-.sidenav{
+.sidenav {
     display: flex;
     height: 100%;
     width: 10rem;
@@ -6,14 +6,14 @@
     justify-content: center;
 }
 
-#sidenav-list{
+#sidenav-list {
     padding: 1rem 0;
     display: flex;
     flex-direction: column;
     font-size: larger;
 }
 
-.sidenavListLink{
+.sidenavListLink {
     text-decoration: none;
     color: var(--ring);
     padding: 20px;
@@ -21,7 +21,7 @@
     width: 100%;
 }
 
-.sidenavListLink:hover{
+.sidenavListLink:hover {
     background-color: var(--ring);
     color: #303434;
 }

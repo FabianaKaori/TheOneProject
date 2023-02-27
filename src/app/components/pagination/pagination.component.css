@@ -1,4 +1,4 @@
-.containerPaginationBook{
+.containerPaginationBook {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -6,24 +6,24 @@
 
 }
 
-.btnPagination{
+.btnPagination {
   cursor: pointer;
   background-color: transparent;
   border: transparent;
 }
 
-.btnPagination img{
+.btnPagination img {
   width: 2.125rem;
 }
 
-.pageListBook{
+.pageListBook {
   list-style: none;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.pageListBook p{
+.pageListBook p {
   padding: 0.625rem;
   text-decoration: none;
   margin: 0.3125rem;

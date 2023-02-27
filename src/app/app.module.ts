@@ -9,7 +9,6 @@ import { MoviesComponent } from './pages/movies/movies.component';
 import { BooksComponent } from './pages/books/books.component';
 import { CharactersComponent } from './pages/characters/characters.component';
 import { HeaderComponent } from './components/header/header.component';
-import { FooterComponent } from './components/footer/footer.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { DocumentsComponent } from './pages/documents/documents.component';
 import { CardLinkComponent } from './components/card-link/card-link.component';
@@ -32,7 +31,6 @@ import { FilterCharacterComponent } from './components/filter-character/filter-c
     BooksComponent,
     CharactersComponent,
     HeaderComponent,
-    FooterComponent,
     SidenavComponent,
     DocumentsComponent,
     CardLinkComponent,

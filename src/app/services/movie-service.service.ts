@@ -11,7 +11,7 @@ export class MovieServiceService {
 
   getMovies(page:number, name?:string) {
     let params = new HttpParams()
-      .set('limit', '5')
+      .set('limit', '10')
       .set('page', page);
 
 

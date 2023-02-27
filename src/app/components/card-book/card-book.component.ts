@@ -11,9 +11,9 @@ export class CardBookComponent {
   @Input() id?: string
   @Input() chapter?: string
 
-  chapters:any
+  chapters: any
 
-  constructor(private bookService: BookServiceService){}
+  constructor(private bookService: BookServiceService) { }
 
   getChapters = () => {
     this.bookService.getChapter(this.id).subscribe(response => {

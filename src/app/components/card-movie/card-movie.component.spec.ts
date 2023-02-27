@@ -8,9 +8,9 @@ describe('CardMovieComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CardMovieComponent ]
+      declarations: [CardMovieComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(CardMovieComponent);
     component = fixture.componentInstance;

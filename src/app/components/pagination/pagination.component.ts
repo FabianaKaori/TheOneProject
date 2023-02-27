@@ -12,7 +12,7 @@ export class PaginationComponent {
 
   public page: number
 
-  constructor (){
+  constructor() {
     this.page = 1
   }
 

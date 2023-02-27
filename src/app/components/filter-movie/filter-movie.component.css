@@ -1,28 +1,27 @@
-.containerFilterMovie{
+.containerFilterMovie {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    
 }
 
-.containerFilterMovie h1{
+.containerFilterMovie h1 {
     color: var(--ring);
 }
 
-.filterGroup{
+.filterGroup {
     gap: 10px;
     display: flex;
 }
-.searchMovie{
+
+.searchMovie {
     padding: 10px;
     border-radius: 10px;
 }
 
-.btn-search{
+.btn-search {
     cursor: pointer;
     padding: 10px;
     border-radius: 10px;
     background-color: var(--ring);
     color: #000;
 }
-

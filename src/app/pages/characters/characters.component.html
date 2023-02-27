@@ -1,7 +1,7 @@
+<app-filter-character
+(characterName)="handleCharacterName($event)"
+></app-filter-character>
 <div class="containerCharacters">
-    <app-filter-character
-      (characterName)="handleCharacterName($event)"
-    ></app-filter-character>
     <ng-container *ngFor="let item of characters">
       <app-card-character
         [name]="item.name"
