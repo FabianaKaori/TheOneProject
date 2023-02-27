@@ -2,3 +2,9 @@
     width: calc(100vw - 11rem);
     min-height: calc(100vh - 5.25rem);
 }
+
+.containerBooks H1{
+    color: var(--ring);
+    padding-left: 7px;
+    padding-top: 10px;
+}
