@@ -22,6 +22,7 @@ import { PaginationComponent } from './components/pagination/pagination.componen
 import { CardCharacterComponent } from './components/card-character/card-character.component';
 import { CardBookComponent } from './components/card-book/card-book.component';
 import { FilterCharacterComponent } from './components/filter-character/filter-character.component';
+import { FilterCharacterRaceComponent } from './components/filter-character-race/filter-character-race.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { FilterCharacterComponent } from './components/filter-character/filter-c
     PaginationComponent,
     CardCharacterComponent,
     CardBookComponent,
-    FilterCharacterComponent
+    FilterCharacterComponent,
+    FilterCharacterRaceComponent
   ],
   imports: [
     BrowserModule,

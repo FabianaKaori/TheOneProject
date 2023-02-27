@@ -17,18 +17,3 @@ export class FilterCharacterComponent {
   }
 
 }
-
-
-// <!--
-// Human
-// Elf
-// Hobbit
-// Orc
-// Goblin
-// Dwarf
-// Maiar
-// Dragon
-// Ent
-// Eagle
-// Balrog
-//  -->
