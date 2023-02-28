@@ -1,6 +1,9 @@
 <div class="sidenav">
     <ul>
-        <li id="sidenav-list">
+      <li class="burguer" (click)="toggleMenu()">
+        <i class="material-icons"> {{ isMenuOpen ? "close" : "menu"}}</i>
+      </li>
+        <li class="sidenavList" [class.is-open]="isMenuOpen">
             <a class="sidenavListLink" routerLink="/">Home</a>
             <a class="sidenavListLink" routerLink="/movies">Movies</a>
             <a class="sidenavListLink" routerLink="/books">Books</a>
