@@ -9,11 +9,15 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
 export class FilterCharacterComponent {
   faSearch = faSearch;
   name?: string
+  race?: string
 
-  @Output() characterName = new EventEmitter<string>()
+  @Output() filter = new EventEmitter<any>()
 
   filterCharacter = () => {
-    this.characterName.emit(this.name)
+    this.filter.emit({
+      name: this.name,
+      race: this.race,
+    })
   }
 
 }

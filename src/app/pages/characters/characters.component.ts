@@ -17,8 +17,8 @@ export class CharactersComponent {
     this.getCharacters(this.currentPage);
   }
 
-  getCharacters = (page: number, name?: string) => {
-    this.characterService.getCharacters(page, name).subscribe((response) => {
+  getCharacters = (page: number, name?: string, race?: string) => {
+      this.characterService.getCharacters(page, name, race).subscribe((response) => {
       this.characters = response.docs;
       this.totalPages = response.pages;
     });
@@ -29,7 +29,7 @@ export class CharactersComponent {
     this.getCharacters(page);
   };
 
-  handleCharacterName = (name?: string) => {
-    this.getCharacters(this.currentPage, name);
+  handleFilter = (filter?: any) => {
+    this.getCharacters(this.currentPage, filter.name, filter.race);
   };
 }

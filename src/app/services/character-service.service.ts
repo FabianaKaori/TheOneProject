@@ -9,7 +9,7 @@ export class CharacterServiceService {
 
   constructor(private httpClient: HttpClient) {}
 
-  getCharacters(page:number, name?:string){
+  getCharacters(page:number, name?:string, race?: string){
     let params = new HttpParams()
     .set('limit', '9')
     .set('page', page);
@@ -19,6 +19,10 @@ export class CharacterServiceService {
 
     if(name !== undefined) {
       params = params.append('name', `/${name}/i`)
+    }
+
+    if(race !== undefined) {
+      params = params.append('race', race)
     }
 
     return this.httpClient.get<any>(`${this.baseURL}/character`,{
