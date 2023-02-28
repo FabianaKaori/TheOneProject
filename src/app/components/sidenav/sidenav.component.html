@@ -1,14 +1,14 @@
-<div class="sidenav">
-    <ul>
-      <li class="burguer" (click)="toggleMenu()">
-        <i class="material-icons"> {{ isMenuOpen ? "close" : "menu"}}</i>
-      </li>
-        <li class="sidenavList" [class.is-open]="isMenuOpen">
-            <a class="sidenavListLink" routerLink="/">Home</a>
-            <a class="sidenavListLink" routerLink="/movies">Movies</a>
-            <a class="sidenavListLink" routerLink="/books">Books</a>
-            <a class="sidenavListLink" routerLink="/characters">Character</a>
-            <a class="sidenavListLink" routerLink="/links">Link</a>
-        </li>
-    </ul>
-</div>
+<nav>
+  <div class="mobile-menu">
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="line3"></div>
+  </div>
+  <ul class="nav-list">
+    <li><a routerLink="/">Home</a></li>
+    <li><a routerLink="/movies">Movies</a></li>
+    <li><a routerLink="/books">Books</a></li>
+    <li><a routerLink="/characters">Character</a></li>
+    <li><a routerLink="/links">Link</a></li>
+  </ul>
+  </nav>
