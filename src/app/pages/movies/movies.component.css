@@ -1,4 +1,9 @@
 .containerMovies{
-    width: calc(100vw - 11rem);
-    min-height: calc(100vh - 5.25rem);
+    padding-top: 30px;
+    width: 80vw;
+    min-height: calc(100vh - 6rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
 }

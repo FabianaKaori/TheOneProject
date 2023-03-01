@@ -1,10 +1,20 @@
+.backgroundHeader{
+    background-color: var(--ring);
+    height: 6rem;
+    width: 100%;
+}
+
 .header {
     background-color: #23272A;
+
     height: 5.25rem;
     width: 100%;
+
     display: flex;
     align-items: center;
-    box-shadow: 0.063rem 0 1.25rem 0 #303434;
+    flex-direction: row;
+    justify-content: space-between;
+
 }
 
 #logo-icon {
@@ -21,18 +31,24 @@
     color: var(--ring);
 }
 
-@media (max-width: 999px) {
-
-
-  #logo-icon {
-    max-width: 20px;
+.navList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0.625rem;    
 }
 
-#logo-group a {
+.navListItem{
+    color: var(--ring);
     text-decoration: none;
+    padding: 1rem 1.5rem 2rem 1.5rem;
+    border-radius: 1rem 1rem 0 0;
+    transition: 0.4s;
 }
 
-#logo-text{
-  font-size: 16px;
+.navListItem:hover{
+    background-color: var(--ring);
+    color: black;
+    transition: 0.4s;
 }
-}
+

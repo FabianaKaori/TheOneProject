@@ -11,7 +11,7 @@ export class CharacterServiceService {
 
   getCharacters(page:number, name?:string, race?: string){
     let params = new HttpParams()
-    .set('limit', '9')
+    .set('limit', '8')
     .set('page', page);
 
     console.log(name)

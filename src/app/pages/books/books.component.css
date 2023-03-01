@@ -1,10 +1,11 @@
 .containerBooks {
-    width: calc(100vw - 11rem);
-    min-height: calc(100vh - 5.25rem);
+    padding-top: 3.125rem;
+    width: 80vw;
+    min-height: calc(100vh - 6rem);
 }
 
 .containerBooks H1{
     color: var(--ring);
-    padding-left: 7px;
-    padding-top: 10px;
+    padding-left: 0.4373rem;
+    padding-top: 0.625rem;
 }
