@@ -5,7 +5,7 @@
 }
 
 .header {
-    background-color: #23272A;
+    background-color: var(--navbar);
 
     height: 5.25rem;
     width: 100%;
@@ -27,8 +27,20 @@
 
 #logo-text {
     font-family: 'Uncial Antiqua', cursive;
-    font-size: 50px;
+    font-size: 3.125rem;
     color: var(--ring);
+}
+
+.mobileMenu{
+    display: none;
+    cursor: pointer;
+}
+
+.mobileMenu div{
+    width: 2rem;
+    height: 0.125rem;
+    background-color: #fff;
+    margin: 0.5rem;
 }
 
 .navList{
@@ -51,5 +63,73 @@
     background-color: var(--ring);
     color: black;
     transition: 0.4s;
+}
+
+@media (max-width: 999px) {
+    .backgroundHeader{
+    background-color: var(--ring);
+    height: 6rem;
+    width: 100%;
+}
+
+.header {
+    background-color: var(--navbar);
+
+    height: 5.25rem;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+
+    #logo-icon {
+        max-width: 20px;
+    }
+
+    #logo-text {
+        font-size: 20px;
+    }
+
+    .navList{
+        position:absolute;
+        top: 5rem;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        transform: translateX(100%);
+
+        flex-direction: column;
+        justify-content:left;
+        align-items: center;
+        gap: 3rem;  
+        height: 100vh;
+        background-color: aqua;
+        padding: 1rem;  
+
+    }
+    
+    .navListItem{
+        margin-left: 0;
+        opacity: 0;
+        color: var(--ring);
+        text-decoration: none;
+        padding: 1rem;
+        border-radius: 0;
+        transition: 0.4s;
+        background-color: red;
+    }
+    
+    .navListItem:hover{
+        background-color: var(--ring);
+        color: black;
+        transition: 0.4s;
+    }
+
+    .mobileMenu{display: block;}
 }
 

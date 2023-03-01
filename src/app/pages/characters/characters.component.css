@@ -14,3 +14,10 @@
     justify-content: start;
     align-items: stretch;
 }
+
+
+@media (max-width: 999px) {
+    .containerCharacters{
+    overflow-x: hidden;
+  }
+  }
