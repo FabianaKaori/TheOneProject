@@ -4,6 +4,13 @@
     min-height: calc(100vh - 6rem);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.card{
+    min-height: 42.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
     align-items: stretch;
 }
