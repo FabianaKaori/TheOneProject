@@ -7,3 +7,9 @@
     justify-content: center;
     background-color: #080E30;
 }
+
+#section1{
+  background-image: url(../../../assets/gandalf.gif);
+  width: 100vw;
+  height: 100vh;
+}
