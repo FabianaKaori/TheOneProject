@@ -16,14 +16,14 @@
     </div>
     <!-- <img src="../../../assets/clip-arts-related-to-gold-line-border-in-115630505446taljqhfnh.png"> -->
     <h1>------------------------------------------------ xxx ------------------------------------------------</h1>
-<div class="cardContainerMap">
-  <ng-container *ngFor="let item of cardList">
-    <app-card-home-map
-    [title]="item.title"
-    [link]="item.link"
-    [description]="item.description"></app-card-home-map>
-  </ng-container>
-</div>
+    <div class="cardMapContainer">
+      <div class="cardMap">
+        <ng-container *ngFor="let item of cardList">
+          <app-card-home-map [title]="item.title" [link]="item.link"
+            [description]="item.description"></app-card-home-map>
+        </ng-container>
+      </div>
+    </div>
     <app-card-home-map></app-card-home-map>
   </section>
   <section id="section3">

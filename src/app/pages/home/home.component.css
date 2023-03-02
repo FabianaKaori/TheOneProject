@@ -48,3 +48,14 @@
     max-height: 18.7rem;
     border-radius: 0.9375rem 3.125rem;
 }
+
+.cardMapContainer{
+    width: 80vw;
+    min-height: calc(100vh - 6rem);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
