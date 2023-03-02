@@ -21,6 +21,7 @@ import { PaginationComponent } from './components/pagination/pagination.componen
 import { CardCharacterComponent } from './components/card-character/card-character.component';
 import { CardBookComponent } from './components/card-book/card-book.component';
 import { FilterCharacterComponent } from './components/filter-character/filter-character.component';
+import { CardHomeMapComponent } from './components/card-home-map/card-home-map.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { FilterCharacterComponent } from './components/filter-character/filter-c
     CardCharacterComponent,
     CardBookComponent,
     FilterCharacterComponent,
+    CardHomeMapComponent,
   ],
   imports: [
     BrowserModule,
