@@ -2,6 +2,7 @@
   background-color: var(--ring);
   height: 6rem;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .header {
@@ -69,6 +70,7 @@
     background-color: var(--ring);
     height: 6rem;
     width: 100%;
+    overflow-x: hidden;
   }
 
   .header {
@@ -104,6 +106,8 @@
     height: 100vh;
     background-color: var(--navbar);
 
+    transform: translateX(100%);
+
   }
 
   .navListItem {
@@ -124,5 +128,9 @@
 
   .mobileMenu {
     display: block;
+  }
+
+  .navList.active{
+    transform: translateX(0);
   }
 }
