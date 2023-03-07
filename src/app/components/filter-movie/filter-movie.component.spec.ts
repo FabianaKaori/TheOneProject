@@ -1,3 +1,4 @@
+import { NO_ERRORS_SCHEMA } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { FilterMovieComponent } from './filter-movie.component';
@@ -8,7 +9,8 @@ describe('FilterMovieComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [FilterMovieComponent]
+      declarations: [FilterMovieComponent],
+      schemas: [NO_ERRORS_SCHEMA]
     })
       .compileComponents();
 

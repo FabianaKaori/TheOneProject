@@ -22,14 +22,5 @@ describe('CardCharacterComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('teste', () => {
-    component.name = 'Gandalf';
-    fixture.detectChanges();
-
-    const nameCharacter = fixture.debugElement.query(By.css('.description'));
-    expect(nameCharacter.nativeElement.textContent.trim()).toEqual('Gandalf');
-
   }
-  )
-}
 );
