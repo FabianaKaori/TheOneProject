@@ -26,3 +26,26 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 # TheOneProject
+
+
+----------------------------------------------------------------------------
+
+Quais ferramentas e/ou bibliotecas (libraries, framework, tools etc) você usou?
+Angular
+NodeJS
+JavaScript
+CSS
+HTML
+
+
+
+Por que você optou pela tecnologia X e não a Y?
+Como o desafio tinha dado a sugestão de usar Angular, pesquisei um pouco sobre ele e achei muito legal a ideia de componentização dele. Testes unitários e como ele trabalha com grandes projetos, focando em microserviços, testes unitários.
+
+Quais princípios da engenharia de software que você usou?
+
+Desafios e problemas que você enfrentou e como você resolveu?
+Ter começado uma nova linguagem foi um desafio, creio que seja para todos de início.
+Alguns problemas que tive foi com a versão mobile, porém consegui resolver com muito esforço e algumas horas no stackoverflow 
+
+O que você entende que pode ser melhorado e como fazer isso?
