@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { By } from '@angular/platform-browser';
 
 import { CardCharacterComponent } from './card-character.component';
 
@@ -20,4 +21,15 @@ describe('CardCharacterComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
-});
+
+  it('teste', () => {
+    component.name = 'Gandalf';
+    fixture.detectChanges();
+
+    const nameCharacter = fixture.debugElement.query(By.css('.description'));
+    expect(nameCharacter.nativeElement.textContent.trim()).toEqual('Gandalf');
+
+  }
+  )
+}
+);

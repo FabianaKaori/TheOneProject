@@ -20,6 +20,7 @@ import { CardCharacterComponent } from './components/card-character/card-charact
 import { CardBookComponent } from './components/card-book/card-book.component';
 import { FilterCharacterComponent } from './components/filter-character/filter-character.component';
 import { CardHomeMapComponent } from './components/card-home-map/card-home-map.component';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { CardHomeMapComponent } from './components/card-home-map/card-home-map.c
     FormsModule,
     AppRoutingModule,
     FontAwesomeModule,
-    HttpClientModule
+    HttpClientModule,
+    HttpClientTestingModule,
     ],
   providers: [],
   bootstrap: [AppComponent]
