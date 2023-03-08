@@ -1,4 +1,4 @@
-# TheOneProject
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.1.
 
@@ -30,7 +30,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ----------------------------------------------------------------------------
 
-
+# TheOneProject
 
 <!--ts-->
    * [Tema](#tema)
@@ -51,7 +51,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 
-(#tema)Tema
+(#tema)## Tema
 blablablablablablablablabla
 
 (#api)API
@@ -87,6 +87,6 @@ CSS: Adicionar mais animações, trabalhar mais no designer do projeto deixando 
 JavaScript: Refatorar o código, já que hoje meu conhecimento em JavaScript é básico.
 
 (#sobre) Sobre
-    Meu nome é Fabiana Kaori, tenho 29 anos e sou formada em Análise e Desenvolvimento de Sistemas pela FATEC Rio Preto.
+Meu nome é Fabiana Kaori, tenho 29 anos e sou formada em Análise e Desenvolvimento de Sistemas pela FATEC Rio Preto.
 
-    Meu primeiro trabalho na área de tecnologia foi um estágio em uma empresa na área da saúde, aonde eu era encarregada em ajudar as pessoas com Excel e construir dashboards na ferramenta Microsoft Power BI. Me tornei CLT e fiquei mais 2 anos focada nas dashboard. Como na época o trabalho estava fugindo da parte "tecnológica" e indo mais para a parte contábil/financeiro eu vi que criar dashboard não era o que eu queria para a minha vida. Como na epoca eu estava dando suporte a um freela que peguei em parceria (eu dava suporte na parte dos calculos e validação da ferramenta), fui apresentada ao Front End porém com o React e me interessei cada dia mais pela área. Hoje estou estudando Angular pois foi apresentado no Field Academy e estou gostando muito no framework, ele é bem organizado (lógico, se você se manter organizado rs).
+Meu primeiro trabalho na área de tecnologia foi um estágio em uma empresa na área da saúde, aonde eu era encarregada em ajudar as pessoas com Excel e construir dashboards na ferramenta Microsoft Power BI. Me tornei CLT e fiquei mais 2 anos focada nas dashboard. Como na época o trabalho estava fugindo da parte "tecnológica" e indo mais para a parte contábil/financeiro eu vi que criar dashboard não era o que eu queria para a minha vida. Como na epoca eu estava dando suporte a um freela que peguei em parceria (eu dava suporte na parte dos calculos e validação da ferramenta), fui apresentada ao Front End porém com o React e me interessei cada dia mais pela área. Hoje estou estudando Angular pois foi apresentado no Field Academy e estou gostando muito no framework, ele é bem organizado (lógico, se você se manter organizado rs).
