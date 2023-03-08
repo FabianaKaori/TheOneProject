@@ -14,12 +14,11 @@ describe('CharacterServiceService', () => {
       imports: [HttpClientTestingModule]
     });
   });
-  
+
   beforeEach(() => {
-    service = TestBed.inject(CharacterServiceService);  
+    service = TestBed.inject(CharacterServiceService);
     httpClient = TestBed.inject(HttpClient)
     httpTestingController = TestBed.inject(HttpTestingController);
-    service = TestBed.inject(CharacterServiceService);
   })
 
   it('should be created', async () => {

@@ -7,13 +7,13 @@
             </a>
         </div>
     <nav>
-        <div class="mobileMenu">
+        <div class="mobileMenu" (click)="toggleMenu()">
             <div class="line1"></div>
             <div class="line2"></div>
             <div class="line3"></div>
         </div>
-        
-        <ul class="navList">
+
+        <ul class="navList" [class.active]="activeMenu">
             <li><a class="navListItem" routerLink="/">Home</a></li>
             <li><a class="navListItem" routerLink="/movies">Movies</a></li>
             <li><a class="navListItem" routerLink="/books">Books</a></li>

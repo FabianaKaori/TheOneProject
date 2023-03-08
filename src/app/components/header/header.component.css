@@ -110,6 +110,10 @@
 
   }
 
+  .navList:active {
+    transform: translateX(0%);
+  }
+
   .navListItem {
     width: 150px;
     margin-left: 0;
