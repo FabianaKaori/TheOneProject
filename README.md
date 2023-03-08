@@ -4,16 +4,11 @@
 
 <b>Sumário</b>
 
-   * [Tema](#tema)
+   * [Projeto](#projeto)
    * [API](#api)
    * [Como iniciar o projeto](#iniciar-projeto)   
    * [Telas](#telas)
    * [Tecnologias utilizadas](#tecnologia-utilizada)
-      * [HTML](#html)
-      * [CSS](#css)
-      * [JavaScript](#javascript)
-      * [Angular](#angular)
-      * [NodeJS](#nodejs)
    * [Princípios da engenharia](#principio-engenharia)
    * [Desafios e como foi solicionado](#desafio-solucao)
    * [Melhorias a serem feitas](#melhorias)
@@ -21,16 +16,23 @@
 
 
 <br>
-<h2 id="tema"><br>
-  Tema
+<h2 id="projeto"><br>
+  Projeto
 </h2>
-blablablablablablablablabla
+Este projeto tem como objetivo colocar em prática os conteúdos estudados de Angular, CSS, HTML, consumo de API REST e versonamento com Git.
+
+
 <br>
 <h2 id="api"><br>
   API
 </h2>
+Para acessar a API https://the-one-api.dev/v2
 
-blablablablablablablablabla
+EndPoint<br>
+```/book```<br>
+```/movie```<br>
+```/character```<br>
+
 <br>
 <h2 id="iniciar-projeto"><br>
   Iniciando o projeto
@@ -43,30 +45,29 @@ blablablablablablablablabla
 <h2 id="telas"><br>
   Telas
 </h2>
+<div align="center">
+  <h3>Home</h3>
+<img width="800" src="https://raw.githubusercontent.com/FabianaKaori/TheOneProject/main/src/assets/homeTela.png" alt="home"><br>
+  <h3>Movie</h3>
+  <img width="800" src="https://raw.githubusercontent.com/FabianaKaori/TheOneProject/main/src/assets/movieTela.png" alt="movie"><br>
+    <h3>Book</h3>
+  <img width="800" src="https://raw.githubusercontent.com/FabianaKaori/TheOneProject/main/src/assets/bookTela.png" alt="book"><br>
+  <h3>Character</h3>
+  <img width="800" src="https://raw.githubusercontent.com/FabianaKaori/TheOneProject/main/src/assets/personagemTela.png" alt="character"><br>
 
-blablablablablablablablabla
+</div>
+
 
 <h2 id="tecnologia-utilizada"><br>
   Tecnologia utilizada
 </h2>
 
 Como o desafio tinha sugerido usar Angular, pesquisei um pouco sobre ele e achei muito legal a ideia de componentização para a reutilização de componente.<br>
-  <h4 id="html">
-    HTML
-  </h4>
-  <h4 id="css">
-    CSS
-  </h4>
-  <h4 id="javascript">
-    JavaScript
-  </h4>
-  <h4 id="angular">
-    Angular
-  </h4>
-  <h4 id="nodejs">
-    NodeJS
-  </h4>
-  
+<div align="center">
+<img width="100" src="https://raw.githubusercontent.com/FabianaKaori/TheOneProject/165d79ddde0a60c81c74d5fb89e14e9240de752e/src/assets/css.svg">
+<img width="100" src="https://raw.githubusercontent.com/FabianaKaori/TheOneProject/165d79ddde0a60c81c74d5fb89e14e9240de752e/src/assets/angular-logo.svg">
+<img width="100" src="https://raw.githubusercontent.com/FabianaKaori/TheOneProject/165d79ddde0a60c81c74d5fb89e14e9240de752e/src/assets/node-logo.svg">
+  </div>
     
 
 <h2 id="principio-engenharia"><br>
