@@ -1,3 +1,9 @@
+select{
+  width: 150px;
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+}
+
 .filterCharacterContainer {
   display: flex;
   justify-content: space-between;
@@ -27,6 +33,13 @@
 }
 
 @media (max-width: 999px) {
+
+  select{
+    width: 9.375rem;
+    height: 1.975rem;
+    padding: 0.625rem;
+    border-radius: 0.625rem;
+  }
   .filterCharacterContainer {
     font-size: 11px;
     display: flex;
