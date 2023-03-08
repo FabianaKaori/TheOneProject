@@ -79,7 +79,7 @@ Tentei seguir o princípio de SOLID, principalmente "Single Responsibility Princ
 <div align="middle">
 <img width="600" src="https://raw.githubusercontent.com/FabianaKaori/TheOneProject/main/src/assets/SSolid.png">
 </div>
-<a href="https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898" alt="Fonte:">
+<a href="https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898" alt="Fonte:"></a>
 
 
 <h2 id="desafio-solucao"><br>
